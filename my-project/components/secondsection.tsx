@@ -7,14 +7,14 @@ export const SecondSection = () => {
       <div>
         <h1 className="text-4xl text-center">
           {" "}
-          <strong>Designer, Frontend Developer & Data Scinetest</strong>
+          <strong>Developer, Frontend Developer & Data scientist</strong>
         </h1>
 
-        <p className="text-center	text-lg py-5">
+        <p className="text-center	text-lg pt-5 pb-20">
           I design and code beautifully simple things, and I love what I do.
         </p>
         <div className="flex justify-center">
-          <div className="w-40 h-40 rounded-full bg-primary relative">
+          <div className="w-40 h-40 rounded-full bg-primary relative ">
             <Image src={myImage} className=" absolute bottom-2" alt="my pic" />
           </div>
         </div>
