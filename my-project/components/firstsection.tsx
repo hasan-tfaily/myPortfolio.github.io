@@ -9,9 +9,11 @@ export const FirstSection = () => {
         <button className="hover:text-primary transition-colors duration-200 text-black font-sans text-sm px-5">
           Menotership
         </button>
-        <button className=" rounded-full border-primary text-black font-sans text-sm border text-primary py-2 transition-colors duration-200 px-5 hover:bg-primary hover:text-white">
-          {" "}
-          say hello
+        <button
+          className="rounded-full border-primary text-black font-sans text-sm border text-primary py-2 transition-colors duration-200 px-5 hover:bg-primary hover:text-white"
+          onClick={() => window.open("path/to/your/cv.pdf")}
+        >
+          My CV
         </button>
       </div>
     </div>
